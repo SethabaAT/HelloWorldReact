@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Greet name="Thabo" heroName="Sebenzian"></Greet>
       <Welcome name="Thabo" heroName="Sebenzian"></Welcome>
-      {/* <Counter></Counter> */}
+      <Counter></Counter>
     </div>
   );
 }
