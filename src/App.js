@@ -8,11 +8,13 @@ import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 import UserGreeting from "./components/UserGreeting";
 import ParentComponent from "./components/ParentComponent";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <NameList />
+      {/* <UserGreeting /> */}
       {/* <EventBind /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
