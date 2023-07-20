@@ -9,11 +9,11 @@ import ClassClick from "./components/ClassClick";
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
-      <Greet name="Thabo" heroName="Sebenzian" />
-      <Welcome name="Thabo" heroName="Sebenzian" />
-      <Counter />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      {/* <Greet name="Thabo" heroName="Sebenzian" /> */}
+      {/* <Welcome name="Thabo" heroName="Sebenzian" /> */}
+      {/* <Counter /> */}
     </div>
   );
 }
