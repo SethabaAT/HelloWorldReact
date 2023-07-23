@@ -12,15 +12,17 @@ import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import "./appStyles.css";
 import styles from "./appStyles.module.css";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick />
-      <ClassClick />
-      <Greet name="Thabo" heroName="Sebenzian" />
-      <Welcome name="Thabo" heroName="Sebenzian" />
-      <Counter />
+      <Form />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      {/* <Greet name="Thabo" heroName="Sebenzian" /> */}
+      {/* <Welcome name="Thabo" heroName="Sebenzian" /> */}
+      {/* <Counter /> */}
     </div>
   );
 }
