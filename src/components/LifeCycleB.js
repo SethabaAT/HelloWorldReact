@@ -15,6 +15,7 @@ class LifeCycleB extends Component {
     return null;
   }
 
+  // This is normally used
   componentDidMount() {
     console.log("LifeCycleB did Mount");
   }
@@ -29,10 +30,12 @@ class LifeCycleB extends Component {
     return null;
   }
 
+  // This is normally used
   componentDidUpdate() {
     console.log("LifeCycleB componentDidUpdate");
   }
 
+  // This almost always there
   render() {
     console.log("LifeCycleB render");
     return <div>Life Cycle B</div>;
