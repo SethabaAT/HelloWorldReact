@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class BranchingTest extends Component {
   render() {
-    return <div>BranchingTest</div>;
+    return <div>This is so cool</div>;
   }
 }
 
