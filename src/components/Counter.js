@@ -23,7 +23,7 @@ class Counter extends Component {
 
     // Pass a function instead of object in order to use the previous state
     this.setState((prevState) => ({
-      count: prevState.count + 1,
+      count: prevState.count + 2,
     }));
   }
 
