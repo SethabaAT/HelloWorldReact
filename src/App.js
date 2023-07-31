@@ -30,9 +30,8 @@ function App() {
     <div className="App">
       <ErrorBoundary>
         <Hero heroName="BatMan" />
-        <Hero heroName="SuperMan" />
-        {/* <Hero heroName="Joker" /> */}
       </ErrorBoundary>
+
       {/* <PortalDemo/> */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
